@@ -24,5 +24,15 @@ keywords: {Spread spectrum communication;Logic gates;Mathematical models;Energy 
 
 # To generate plots like the paper, please check the .m files given in the "Plot Code" folder.
 
+# The simulator includes the following layers:
+
+Application Layer: Generates and manages packets, including payload sizes and traffic patterns
+
+Network Layer: Handles routing (relaying), node addressing, and path selection
+
+Data Link Layer (MAC): Manages interference, collisions, and scheduling
+
+Physical Layer: Models frequency, spreading factor, bandwidth, path loss, transmission power, current consumption, interference, receiver sensitivity, and transceiver behavior
+
 
 
